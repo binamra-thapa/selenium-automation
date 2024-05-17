@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 def create_screenshot_folder():
     today = date.today()
     folder_name = today.strftime("%Y-%m-%d")
-    ss_folder = "/Users/binamra.thapa/Desktop/My/Devops/Python/screenshots"
+    ss_folder = "/Users/binamra.thapa/Desktop/My/Devops/selenium-automation/screenshots"
     folder_path = os.path.join(ss_folder, folder_name)
     if os.path.exists(folder_path):
         shutil.rmtree(ss_folder)
